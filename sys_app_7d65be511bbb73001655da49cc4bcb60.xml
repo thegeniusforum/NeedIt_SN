@@ -12,7 +12,7 @@
         <menu/>
         <name>NeedIt</name>
         <private>false</private>
-        <restrict_table_access>false</restrict_table_access>
+        <restrict_table_access>true</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_404490_needit</scope>
         <scoped_administration>false</scoped_administration>
@@ -25,9 +25,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-09 11:07:44</sys_created_on>
         <sys_id>7d65be511bbb73001655da49cc4bcb60</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-11 11:54:42</sys_updated_on>
+        <sys_updated_on>2019-09-11 12:13:16</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
