@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -30,7 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	current.state = 14;
+	current.state = 15;
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -38,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9013366f1b3333001655da49cc4bcb2c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>NeedIt Set State to Awaiting Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_404490_needit">7d65be511bbb73001655da49cc4bcb60</sys_package>
@@ -46,7 +46,7 @@
         <sys_scope display_value="NeedIt">7d65be511bbb73001655da49cc4bcb60</sys_scope>
         <sys_update_name>sys_script_9013366f1b3333001655da49cc4bcb2c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-16 14:10:15</sys_updated_on>
+        <sys_updated_on>2019-09-17 09:22:05</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
