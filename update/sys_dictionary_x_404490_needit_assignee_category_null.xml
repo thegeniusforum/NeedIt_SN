@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_404490_needit_needit_task">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_404490_needit_assignee_category">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -35,7 +35,7 @@
         <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_404490_needit_needit_task</name>
+        <name>x_404490_needit_assignee_category</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -47,21 +47,21 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>5</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-16 10:50:22</sys_created_on>
-        <sys_id>bb847eaf1b3333001655da49cc4bcba7</sys_id>
+        <sys_created_on>2019-09-17 07:23:53</sys_created_on>
+        <sys_id>f0ee8bf71b3373001655da49cc4bcb43</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_404490_needit_needit_task</sys_name>
+        <sys_name>x_404490_needit_assignee_category</sys_name>
         <sys_package display_value="NeedIt" source="x_404490_needit">7d65be511bbb73001655da49cc4bcb60</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">7d65be511bbb73001655da49cc4bcb60</sys_scope>
-        <sys_update_name>sys_dictionary_x_404490_needit_needit_task_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_404490_needit_assignee_category_null</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-16 10:50:22</sys_updated_on>
+        <sys_updated_on>2019-09-17 07:23:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
