@@ -15,27 +15,28 @@
         <script><![CDATA[var rightNow = new GlideDateTime();
 var overdueNeedItTasks = new GlideRecord('x_404490_needit_needit_task');
 //overdueNITasks.addQuery('due_date', '>=', rightNow);
-overdueNeedItTasks.addQuery('due_date','>=',rightNow);
-overdueNeedItTasks.addQuery('due_date','<',gs.hoursAgo(-24));
-overdueNeedItTasks.addQuery('state','!=',3);
+overdueNeedItTasks.addQuery('due_date', '>=', rightNow);
+overdueNeedItTasks.addQuery('due_date', '<', gs.hoursAgo(-24));
+overdueNeedItTasks.addQuery('state', '!=', 3);
 
 overdueNeedItTasks.query();
 
-while(overdueNITasks.next()){
-		gs.info("Overdue NeedIt Task record in next 24 hours = " + overdueNITasks.number);
-	}]]></script>
+while (overdueNITasks.next()) {
+    gs.info("Overdue NeedIt Task record in next 24 hours = " + overdueNITasks.number);
+    gs.eventQueue('x_404490_needit.dueSoonNeedItTasks', overdueNeedItTasks, overdueNeedItTasks.number, gs.getUserName());
+}]]></script>
         <sys_class_name>sysauto_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-17 09:48:45</sys_created_on>
         <sys_id>fe6e67f31bb373001655da49cc4bcb6b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Find NeedIt tasks Due Soon</sys_name>
         <sys_package display_value="NeedIt" source="x_404490_needit">7d65be511bbb73001655da49cc4bcb60</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">7d65be511bbb73001655da49cc4bcb60</sys_scope>
         <sys_update_name>sysauto_script_fe6e67f31bb373001655da49cc4bcb6b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-17 09:53:38</sys_updated_on>
+        <sys_updated_on>2019-09-17 13:25:07</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>
